@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="multi-project:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="695f4d12-79a6-41e2-9e42-00adefcd85c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/api/OrderApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/api/OrderQueyDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/initDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle-multi-modules/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module-web/multi-project.module-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/build/classes/java/main/io/module/domain/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/build/classes/java/main/io/module/repository/MemberRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/build/classes/java/test/io/module/ModuleCommonApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/build/classes/java/test/io/module/repository/MemberRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/build/libs/module-common-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/src/main/java/io/module/common/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/src/main/java/io/module/common/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/src/test/java/io/module/ModuleCommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/src/test/java/io/module/common/repository/MemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/build/classes/java/main/io/module/contract/controller/MemberApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/build/classes/java/main/io/module/contract/service/MemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/build/classes/java/test/io/module/ModuleApiApplicationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/build/classes/java/test/io/module/service/MemberServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/build/libs/module-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/build/libs/module-contract-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/src/main/java/io/module/contract/controller/MemberApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/src/main/java/io/module/contract/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/src/test/java/io/module/ModuleApiApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-contract/src/test/java/io/module/contract/service/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/io/module/ModuleWebApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/module-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/src/main/java/io/module/ModuleWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/module-api">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/module-common">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/module-web">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="multi-project" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="multi-project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="multi-project" type="f1a62948:ProjectNode" />
+                <item name="module-common" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="multi-project" type="f1a62948:ProjectNode" />
+                <item name="module-web" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="multi-project" type="f1a62948:ProjectNode" />
+                <item name="module-web" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="multi-project" type="f1a62948:ProjectNode" />
+                <item name="module-web" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="multi-project" type="f1a62948:ProjectNode" />
+                <item name="module-web" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="multi-project" type="f1a62948:ProjectNode" />
+                <item name="module-web" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="multi-project" type="f1a62948:ProjectNode" />
+                <item name="module-web" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="multi-project" type="f1a62948:ProjectNode" />
+                <item name="module-web" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="multi-project" type="f1a62948:ProjectNode" />
+                <item name="module-web" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\mgpc\IdeaProjects\multi-project\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1m0Q3SjMi1e8p6lRWVMU46Rva7P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gradle-multi-modules" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15478615" />
+    <property name="project.structure.side.proportion" value="0.434236" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.module" />
+      <recent name="io.module.repository" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.module" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle bootRepackage" />
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ModuleWebApplication">
+    <configuration name="multi-project:module-api [bootRun]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/module-api" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="multi-project:module-api [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/module-api" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="multi-project:module-common [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/module-common" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="multi-project:module-web [bootRepackage]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/module-web" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRepackage" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="multi-project:module-web [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/module-web" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="multi-project:module-web [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/module-web" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ModuleWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="multi-project.module-web.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.module.ModuleWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.multi-project:module-web [build]" />
+        <item itemvalue="Gradle.multi-project:module-api [clean]" />
+        <item itemvalue="Gradle.multi-project:module-common [clean]" />
+        <item itemvalue="Gradle.multi-project:module-web [bootRepackage]" />
+        <item itemvalue="Gradle.multi-project:module-web [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="695f4d12-79a6-41e2-9e42-00adefcd85c1" name="Default Changelist" comment="" />
+      <created>1608627828815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608627828815</updated>
+      <workItem from="1608627831425" duration="2426000" />
+      <workItem from="1608773958578" duration="709000" />
+      <workItem from="1609116643292" duration="9205000" />
+      <workItem from="1609137831105" duration="2207000" />
+      <workItem from="1609200227627" duration="2148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="164" key="#Project_Structure" timestamp="1609202471665">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="164" key="#Project_Structure/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202471665" />
+    <state x="2075" y="99" key="#Project_Structure/1680.-36.1536.832/0.0.1680.1010@1680.-36.1536.832" timestamp="1609131455654" />
+    <state x="570" y="260" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1609137592927">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="570" y="260" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609137592927" />
+    <state x="587" y="341" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1609202528313">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="587" y="341" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202528313" />
+    <state x="590" y="356" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1609135646234">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="590" y="356" key="#com.intellij.ide.util.TreeClassChooserDialog/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609135646234" />
+    <state x="467" y="183" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1609133158697">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="467" y="183" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609133158697" />
+    <state x="383" y="430" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609202466717">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="383" y="430" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202466717" />
+    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609136878690">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609136878690" />
+    <state x="309" y="99" key="CommitChangelistDialog2" timestamp="1609202765516">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="309" y="99" key="CommitChangelistDialog2/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202765516" />
+    <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1609202616018">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="260" key="FileChooserDialogImpl/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202616018" />
+    <state x="2247" y="178" key="FileChooserDialogImpl/1680.-36.1536.832/0.0.1680.1010@1680.-36.1536.832" timestamp="1609131478167" />
+    <state width="1125" height="272" key="GridCell.Tab.0.bottom" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.0.bottom/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/1680.-36.1536.832/0.0.1680.1010@1680.-36.1536.832" timestamp="1609131551811" />
+    <state width="1125" height="272" key="GridCell.Tab.0.center" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.0.center/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/1680.-36.1536.832/0.0.1680.1010@1680.-36.1536.832" timestamp="1609131551811" />
+    <state width="1125" height="272" key="GridCell.Tab.0.left" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.0.left/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/1680.-36.1536.832/0.0.1680.1010@1680.-36.1536.832" timestamp="1609131551811" />
+    <state width="1125" height="272" key="GridCell.Tab.0.right" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.0.right/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/1680.-36.1536.832/0.0.1680.1010@1680.-36.1536.832" timestamp="1609131551811" />
+    <state width="1125" height="272" key="GridCell.Tab.1.bottom" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.1.bottom/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state width="1125" height="272" key="GridCell.Tab.1.center" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.1.center/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state width="1125" height="272" key="GridCell.Tab.1.left" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.1.left/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state width="1125" height="272" key="GridCell.Tab.1.right" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.1.right/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state width="1125" height="272" key="GridCell.Tab.2.bottom" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.2.bottom/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state width="1125" height="272" key="GridCell.Tab.2.center" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.2.center/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state width="1125" height="272" key="GridCell.Tab.2.left" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.2.left/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state width="1125" height="272" key="GridCell.Tab.2.right" timestamp="1609202495347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1125" height="272" key="GridCell.Tab.2.right/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202495347" />
+    <state x="341" y="147" key="SettingsEditor" timestamp="1609135650224">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="341" y="147" key="SettingsEditor/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609135650224" />
+    <state x="532" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1609200260062">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="532" y="329" key="com.intellij.ide.util.TipDialog/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609200260062" />
+    <state x="591" y="140" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1609131881977">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="591" y="140" key="com.intellij.testIntegration.createTest.CreateTestDialog/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609131881977" />
+    <state x="2220" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog/1680.-36.1536.832/0.0.1680.1010@1680.-36.1536.832" timestamp="1609131542043" />
+    <state x="219" y="106" key="new project wizard" timestamp="1609201972162">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="219" y="106" key="new project wizard/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609201972162" />
+    <state x="496" y="233" width="672" height="677" key="run.anything.popup" timestamp="1609137441275">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="496" y="233" width="672" height="677" key="run.anything.popup/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609137441275" />
+    <state x="503" y="217" key="search.everywhere.popup" timestamp="1609202453588">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="503" y="217" key="search.everywhere.popup/1680.-36.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1609202453588" />
+  </component>
+</project>
